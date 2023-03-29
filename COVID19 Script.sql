@@ -1,4 +1,4 @@
--- Checking data
+--Checking data from both datasets to see if anymore cleaning needs to be done
 SELECT *
 FROM PortfolioProject.dbo.CovidDeaths
 WHERE location = 'Afghanistan'
@@ -18,7 +18,7 @@ SELECT DISTINCT Location
 FROM PortfolioProject.dbo.CovidDeaths
 
 --Looking at total cases VS total deaths 
--- Likilyhood of dying in America if you contrated covid as a %
+--Likilyhood of dying in America if you contrated covid as a %
 
 SELECT Location, date, total_cases, total_deaths, (total_deaths/total_cases)*100 AS Deathpercentage
 FROM PortfolioProject.dbo.CovidDeaths
@@ -116,7 +116,7 @@ WHERE dea.continent is not null
 SELECT * , (RollingPeopleVaccinated/population)*100
 From PopulationVaccination
 
--- Using Temp Table to make  a rolling population count column
+-- Using Temp Table to make a rolling population count column
 
 DROP TABLE IF EXISTS #PercentPopulationVaccinated
 Create Table #PercentPopulationVaccinated 
