@@ -1,5 +1,5 @@
 # Covid19
-Portfolio Project 2 looking at Covid19 Data 
+Portfolio Project 2 looking at Covid19 Data  
 
 My second project on processing data through SQL and Excel. Finally using Tableau to show the visualizations of the given data.
 
