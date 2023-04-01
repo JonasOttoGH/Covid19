@@ -9,13 +9,15 @@ My second project on processing data through SQL and Excel. Finally using Tablea
  - What countries are affected the most?
  
  Prepare:
-- Data was downloaded from: https://ourworldindata.org/covid-deaths
+- Data was downloaded from: https://ourworldindata.org/covid-deaths as 2 CVS files
 
 Process:
-- Data was then proceeded and looked at firstly by using Excel and then Microsoft SQL. Please refer to script provided for more detail on the process.
+- Data was then proceeded and looked at firstly by using Excel and then Microsoft SQL (Please refer to script for more detail on the process).
 
 Analyse/Share:
-- Finally a visualisation was made using Tablau. Link to view final product: https://public.tableau.com/views/Covid19Dashboard_16797955199760/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link
+
+Finally a visualisation was made using Tablau. 
+-Link to view final product: https://public.tableau.com/views/Covid19Dashboard_16797955199760/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link
 
  Act: Summary of the insights gained from Tableau Visualization
  - Covid19 in 2019 - 2021 effected over 150 million people with a death count of over 3 million people.
